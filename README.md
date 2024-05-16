@@ -11,6 +11,8 @@
 
 Take clon of the repo then firstly copy content from .env.example file and past this into .env file and after creating the mysql database please set db name and credentails in .env file.
 - Run the composer install command. ```composer install```
+- Run ```npm install```
+- Run ```npm run build```
 - Run migrations. ```php artisan migrate```
 - Run db seed command. ```php artisan db:seed```
 - Run ```php artisan serve```
